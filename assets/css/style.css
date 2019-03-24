@@ -1,0 +1,125 @@
+body,html {
+    height: 100%;
+    max-width: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+body { 
+    background: url("../images/newBg.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #009cc1!important;
+    background-image: linear-gradient(to right,#009cc1,#004e61);
+}
+
+.container {
+    padding-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#portfolio {
+    border-radius:20px;
+    border-radius:50%;
+    border: 3px solid #004e61!important;
+    padding: 3px;
+    background-color: black;  
+}
+
+#hexDiv{
+    margin-top: 20px;
+    border: 2px solid #004e61;
+    border-radius: 5px;
+}
+
+#soccer {
+    border-radius:20px;
+    border-radius:50%;
+    border: 3px solid #004e61!important;
+    padding: 3px;
+    background-color: black;
+    float: left;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#imgDiv{
+    border-radius:20px;
+    border-radius:50%;
+    background-color: #009cc1;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+
+
+@media(max-width: 767px){
+    #imgDiv{
+        margin: auto;
+    }
+    #hexDiv{
+        margin: auto!important;
+    }
+    #cardDiv{
+        width: 100%!important;
+    }
+    .imgContainer{
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px){
+    .container{
+        min-width:100%;
+    }
+    .card{
+        width: 100%!important;
+        margin:0px!important;
+        margin-bottom: 10px!important;
+    }
+}
+
+
+hr {
+    height: 1px;
+    color: #009cc1;
+    background-color: #009cc1;
+    border: none;
+}
+
+.imgContainer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgContainer > div > img{
+    margin-bottom: 5px;
+}
+
+.imgContainer > div{
+    display: inline-block;
+}
+
+hr.style-two {
+    border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #009cc1, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #009cc1, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #009cc1, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #009cc1, #f0f0f0);
+}
+
+.card{
+    float: left;
+    
+    margin: 1%;
+}

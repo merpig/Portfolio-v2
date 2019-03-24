@@ -1,0 +1,26 @@
+img{
+    padding: 2px;
+    background: #009cc1;
+    height:165px;
+}
+
+.card{
+    border: 2px solid #004e61!important;
+    padding: 2px;
+    background-color: rgba(0,0,0,0);
+}
+
+h5{
+    color: #004e61;
+}
+
+@media(max-width: 767px){
+    .card{
+        margin: auto!important;
+        width: 100%!important;
+        margin-bottom: 20px!important;
+    }
+    img{
+        height: unset;
+    }
+}

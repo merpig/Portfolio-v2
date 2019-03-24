@@ -77,6 +77,10 @@ body {
     .imgContainer{
         width: 100%;
     }
+    #soccer{
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media(max-width: 400px){
@@ -87,6 +91,10 @@ body {
         width: 100%!important;
         margin:0px!important;
         margin-bottom: 10px!important;
+    }
+    #soccer{
+        width: 100px;
+        height: 100px;
     }
 }
 

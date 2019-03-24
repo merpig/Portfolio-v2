@@ -6,13 +6,9 @@ body,html {
     overflow-x: hidden;
 }
 
-.module {
-    width: 300px;
-    height: 200px;
-  
-    overflow-y: scroll; /* has to be scroll, not auto */
+* {
     -webkit-overflow-scrolling: touch;
-  }
+}
 
 body { 
     background: url("../images/newBg.png") no-repeat center center fixed; 

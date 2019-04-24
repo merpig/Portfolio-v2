@@ -1,12 +1,18 @@
-@media(max-width: 767px){
-    .container{
-        
-        border-radius: 5px;
-        border: 2px solid #004e61;
-    }
-    .mb-4{
-        border-radius: 5px;
-        padding: 20px;
-        background-color: white!important;
+@media(min-width: 768px){
+    .row{
+        padding-right: 30px;
     }
 }
+
+.container{
+        
+    border-radius: 5px;
+    border: 2px solid #004e61;
+}
+.mb-4{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white!important;
+    border: 1px solid lightgray; 
+}
+
